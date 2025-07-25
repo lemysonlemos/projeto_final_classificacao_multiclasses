@@ -17,9 +17,6 @@ Ambos os projetos foram desenvolvidos em Python utilizando `TensorFlow` e `sciki
 
 > Cada amostra pode possuir **mais de um rótulo**.
 
-- **Entrada**: Embeddings simulando vídeo+áudio com 1152 features.
-- **Saída**: 4800 neurônios com ativação `sigmoid` (um para cada rótulo).
-- **Função de Perda**: `binary_crossentropy`.
 - **Métricas Avaliadas**:
   - `Precision@K`
   - `Recall` médio por amostra
